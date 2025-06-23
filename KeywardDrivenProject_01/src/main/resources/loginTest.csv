@@ -1,0 +1,6 @@
+Login,OpenBrowser,Chrome,
+Login,NavigateTo,https://naveenautomationlabs.com/opencart/index.php?route=account/login,
+Login,type,id=input-email,pwtest@opencart.com
+Login,type,id=input-password,pw123
+Login,click,xpath=//input[@value='Login'],
+Login,verifyText,xpath=//h2[normalize-space()='My Account'],My Account
